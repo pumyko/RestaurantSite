@@ -1,0 +1,54 @@
+/* =========================================================
+   Module 3 – Food, LLC  |  styles.css
+   ========================================================= */
+
+/* ---------- Navbar ---------- */
+.navbar-default {
+  background-color: #f8f8f8;
+  border-color: #e7e7e7;
+}
+
+.navbar-default .navbar-brand {
+  font-weight: 700;
+  font-size: 20px;
+  color: #333;
+}
+
+/* Mobile dropdown menu – full width, distinct background */
+#mobile-menu {
+  background-color: #3e3e3e;
+  width: 100%;
+  padding: 0;
+}
+
+#mobile-menu ul.nav > li > a {
+  color: #f0f0f0;
+  font-size: 16px;
+  padding: 14px 20px;
+  border-bottom: 1px solid #555;
+}
+
+#mobile-menu ul.nav > li > a:hover,
+#mobile-menu ul.nav > li > a:focus {
+  background-color: #555;
+  color: #fff;
+}
+
+/* ---------- Page Heading ---------- */
+.page-heading {
+  margin-top: 30px;
+  margin-bottom: 25px;
+  font-size: 32px;
+  font-weight: 700;
+  color: #333;
+}
+
+/* ---------- Main Content Section ---------- */
+.main-section {
+  background-color: #d9edf7;   /* light-blue: clearly distinct from page */
+  min-height: 1000px;
+  padding: 30px 40px;
+  border: 1px solid #bce8f1;
+  font-size: 18px;
+  color: #31708f;
+}
