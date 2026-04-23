@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>David's Restaurant</title>
+
+  <link rel="stylesheet"
+    href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <style>
+    body { padding-top: 50px; }
+    .category-tile {
+      cursor: pointer;
+      text-align: center;
+      padding: 40px 20px;
+      margin-bottom: 20px;
+      background-color: #f5f5f5;
+      border: 1px solid #ddd;
+      border-radius: 4px;
+      font-size: 24px;
+      font-weight: bold;
+      transition: background 0.2s;
+    }
+    .category-tile:hover { background-color: #e0e0e0; }
+    #main-content { margin-top: 20px; }
+    .menu-item-tile {
+      border: 1px solid #ccc;
+      border-radius: 4px;
+      margin-bottom: 15px;
+      padding: 15px;
+    }
+    .menu-item-tile img { width: 100%; border-radius: 4px; }
+    .navbar-brand { font-size: 22px; font-weight: bold; }
+    #back-btn { margin-bottom: 15px; }
+  </style>
+</head>
+<body>
+
+  <nav class="navbar navbar-default navbar-fixed-top">
+    <div class="container">
+      <div class="navbar-header">
+        <a class="navbar-brand" href="#" id="logo">
+          &#127860; David's Restaurant
+        </a>
+      </div>
+    </div>
+  </nav>
+
+  <div class="container">
+    <div id="main-content">
+      <!-- Content injected by JS -->
+      <p class="text-center text-muted">Loading…</p>
+    </div>
+  </div>
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  <script src="js/script.js"></script>
+</body>
+</html>
